@@ -435,6 +435,7 @@ section.my_latest_projects {
   margin: 5% 0;
 }
 
+
 /* case buttons */
 
 .case_btn {
@@ -496,6 +497,28 @@ a.project_website:hover {
   color: var(--white);
 }
 
+/* projects page */
+
+.projects_page section.my_latest_projects {
+  width: 90%;
+  margin: 0 auto;
+  max-width: unset;
+}
+
+.projects_page .project_information {
+  margin: 0 0 2% 0;
+  padding: 0 1% 1% 1%;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+  display: inline-block;
+  width: 24%;
+}
+
+.projects_page .flex{
+display: unset;
+}
+
+
 @media (min-width: 1800px) {
   
   .hero p,
@@ -531,6 +554,14 @@ a.project_website:hover {
     padding: 0% 0% 0 0;
     width: 60%;
   }
+
+  /* projects page */
+  .projects_page section.my_latest_projects {
+    width: 75%;
+    max-width: 1750px;
+    margin: 0 auto;
+
+}
 
 }
 
@@ -722,7 +753,30 @@ a.project_website:hover {
     width: 40%;
     margin: 0 6% 3% 2%;
   }
+
+  /* projects page */
+
+.projects_page section.my_latest_projects {
+  width: 95%;
+  margin: 0 auto;
+  max-width: unset;
 }
+
+.projects_page .project_information {
+  margin: 0 0 2% 0;
+  padding: 0 1% 1% 1%;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+  display: inline-block;
+  width: 32%;
+}
+
+.projects_page .flex{
+display: unset;
+}
+}
+
+
 
 @media (max-width: 767px) {
   /* THIS APPLIES FOR ALL PAGES */
@@ -964,4 +1018,18 @@ a.project_website:hover {
   footer p {
       font-size: 10px;
   }
+
+  /* projects page*/
+  .projects_page .project_information {
+    display: block;
+    width: 100%;
+}
+
+.projects_page section.my_latest_projects {
+  width: 85%;
+}
+
+.projects_page .my_latest_projects h2 {
+  margin-top: 80px;
+}
 }
