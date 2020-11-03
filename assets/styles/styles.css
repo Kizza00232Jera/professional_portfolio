@@ -815,7 +815,7 @@ display: unset;
   }
   /* Arrow none on mobiles */
   .arrow-wrapper {
-    display: block;
+    display: none;
   }
   /*navigation */
   label.logo {
@@ -867,6 +867,10 @@ display: unset;
   /* hero */
   .hero {
       margin-top: 80px;
+  }
+
+  .hero h1 {
+    padding-top: 2vw;
   }
 
   header .flex {
