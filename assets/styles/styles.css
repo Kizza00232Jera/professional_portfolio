@@ -114,6 +114,10 @@ label.logo a {
   font-weight: bold;
 }
 
+label.logo img {
+  height: 80px;
+}
+
 label.logo a:hover {
   background-color: unset;
 }
@@ -613,6 +617,9 @@ display: unset;
     font-size: 24px;
     line-height: 60px;
   }
+  label.logo img {
+    height: 60px;
+}
   nav ul li {
     line-height: 60px;
   }
@@ -826,8 +833,11 @@ display: unset;
     display: block;
   }
   header nav {
-    position: absolute;
+    position: fixed;
     top: 0;
+  }
+  section.hero {
+    height: unset;
   }
   main section.who_am_i,
   main section.projects_intro {
@@ -866,7 +876,7 @@ display: unset;
 
   /* hero */
   .hero {
-      margin-top: 80px;
+      margin-top: 100px;
   }
 
   .hero h1 {
