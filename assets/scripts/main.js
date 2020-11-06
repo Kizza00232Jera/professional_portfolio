@@ -10,6 +10,8 @@ function menuOff(){
     nav.classList.remove('active');
 }
 
+
+
 /* refresh page on mobiles when clicking on about me or projects*/ 
 const refreshSkills = document.querySelector('.refresh')
 
@@ -19,3 +21,5 @@ const refreshPage = () => {
 }
 
 refreshSkills.addEventListener('click', refreshPage);
+
+

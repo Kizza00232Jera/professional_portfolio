@@ -1,300 +1,278 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Specializing in responsive designs, custom and dynamic web solutions with the help of HTML5, CSS3, JavaScript and WordPress!"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="assets/styles/all.css" type="text/css" />
 
-    <link rel="stylesheet" href="assets/styles/styles.css" />
-    <script src="assets/scripts/main.js" defer></script>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <title>Antonio | portfolio</title>
-  </head>
-  <body>
-    <header>  
-    <div id="menuButtonWrapper"><a class="btn" onclick="menuOn();return false" href="#"><i class="fas fa-bars fa-2x"></i></a></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Specializing in responsive designs, custom and dynamic web solutions with the help of HTML5, CSS3, JavaScript and WordPress!" />
+  <link rel="shortcut icon" href="assets/images/tablogo.png" type="image/x-icon" width="16" height="16">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/all.css" type="text/css" />
+  <link rel="stylesheet" href="assets/styles/styles.css" />
+  <script src="assets/scripts/main.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <title>Antonio | portfolio</title>
+</head>
+
+<body>
+  <header>
+    <div id="menuButtonWrapper"><a class="btn" onclick="menuOn();return false" href="#"><i
+          class="fas fa-bars fa-2x"></i></a></div>
     <nav>
-      <div id="menuCloseButtonWrapper"><a class="btn btn2" onclick="menuOff();return false"
-        href="#"><i class="fas fa-bars fa-2x"></i></a></div>
-        <div class="flex nav_space">
-          <ul class="logodiv">
-            <li class="logo"> <a href="index.html"> <img src="assets/images/logo.png" alt="logo"></a></li>
-          </ul> 
-              <ul>
-                <li><a class="active" href="index.html">Home</a></li>
-                <li><a class="refresh" href="index.html#about_me">about me</a></li>
-                <li class="mobile_none"><a href="index.html#my_latest_projects">my projects</a>
-                  <ul>
-                    <li><a href="blokhus_project.html">Blokhus</a></li>
-                    <li><a href="projects.html">my pr k k  g g g ojects</a></li>
-                    <li><a href="projects.html">my projects</a></li>
-                  </ul>
-                </li>
-                <li class="pc_none"><a href="projects.html">my projects</a>
-                </li>
-              </ul>
+      <div id="menuCloseButtonWrapper"><a class="btn btn2" onclick="menuOff();return false" href="#"><i
+            class="fas fa-bars fa-2x"></i></a></div>
+      <div class="flex nav_space">
+        <ul class="logodiv">
+          <li class="logo"> <a href="index.html"> <img src="assets/images/logo.png" alt="logo"></a></li>
+        </ul>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="refresh" href="index.html#about_me">about me</a></li>
+          <li class="mobile_none"><a href="index.html#my_latest_projects">my projects</a>
+            <ul>
+              <li><a href="blokhus_project.html">Blokhus</a></li>
+              <li><a href="projects.html">my pr k k g g g ojects</a></li>
+              <li><a href="projects.html">my projects</a></li>
+            </ul>
+          </li>
+          <li class="pc_none"><a href="projects.html">my projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="flex">
+
+      <section class="hero">
+        <h1>Hi, my name is Antonio.</h1>
+        <hr class="hr1" />
+        <p>
+          Multimedia Design Student with passion in UX design and Front-end
+          development
+        </p>
+        <hr class="hr1" />
+        <div class="hero_buttons_container flex">
+          <div class="button_hero">
+            <a class="download_cv_button cv_btn_hover" href="images/cv.pdf">Download CV</a>
+          </div>
+          <div class="button_hero button_hero2">
+            <a class="see_my_projects_button" href="index.html#my_latest_projects">See my projects</a>
+          </div>
         </div>
-      </nav>
+      </section>
+      <section class="hero_image">
+        <img src="assets/images/heronew.svg" alt="">
+      </section>
+    </div>
+    <div class="arrow-wrapper">
+      <a href="#about_me">
+        <i id="arrow-down-pause" class="fas fa-arrow-down fa-3x"></i>
+      </a>
+    </div>
+  </header>
+  <main>
+    <section class="about_me" id="about_me">
+      <h2>More about me</h2>
+      <div class="about_me_info">
+        <p class="about_me_intro">
+          My curiousity back from the primary school made me passionate in
+          front end development, since I always wanted to know how all this
+          beautiful stuff works behind the screens. So, here I am today,
+          full-time student at UCN in Aalborg, Denmark. Studying Multimedia
+          design, with a focus on both UI/UX design and front-end development.
+        </p>
+        <p class="about_me_intro_two">
+          It has always been my passion to work with computers. Recently I
+          have learned a lot about web design throughout my studies and
+          interests. I would like to continue with my hobby and also share my
+          knowledge with you.
+        </p>
+        <div class="info_list">
+          <ul>
+            <li>
+              <div class="info_item">
+                <label class="label_container">
+                  <label class="left_label"> Date of birth - </label>
+                  <label class="right_label"> 27.01.2000. </label>
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="info_item">
+                <label class="label_container">
+                  <label class="left_label"> Born in - </label>
+                  <label class="right_label"> Požega, Croatia </label>
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="info_item">
+                <label class="label_container">
+                  <label class="left_label"> Currently live in - </label>
+                  <label class="right_label">Aalborg, Denmark</label>
+                </label>
+              </div>
+            </li>
+            <li>
+              <div class="info_item">
+                <label class="label_container">
+                  <label class="left_label"> Level of education - </label>
+                  <label class="right_label">
+                    Academy Profession Degree
+                  </label>
+                </label>
+              </div>
+            </li>
+          </ul>
+          <div class="about_me_social">
+            <p>Feel free to contact me on one of these platforms:</p>
+            <div class="about_me_social_icon">
+              <a href="mailto:antonio.jera10@gmail.com">
+                <i class="fas fa-envelope fa-3x"></i>
+              </a>
+              <a href="https://www.instagram.com/antonio00232/" target="_blank">
+                <i class="fab fa-instagram fa-3x"></i>
+              </a>
+              <a href="https://github.com/Kizza00232Jera?tab=repositories" target="_blank">
+                <i class="fab fa-github fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="my_skills" id="my_skills">
+      <h2>These are my skills</h2>
+      <div class="flex my_skills_neg_mar">
+        <article id="skill_one">
+          <div class="skill_headline">
+            <div>
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Front&nbsp;end&nbsp;technologies</h3>
+          </div>
+          <p>
+            I am building responsive websites using <span class="highlight">HTML, CSS</span> and <span
+              class="highlight">Javascript</span>.
+            I have knowledge to create dynamic webpages using <span class="highlight"> </span> WordPress and
+            I'm currently learning basics in <span class="highlight">Vue</span>.
+          </p>
+        </article>
+        <article id="skill_one">
+          <div class="skill_headline">
+            <div>
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Back&nbsp;end&nbsp;technologies</h3>
+          </div>
+          <p>
+            As a part of education, I've decided to study about API in 4 weeks
+            elective. In that time we learned how to create projects with
+            <span class="highlight"> Node.js</span> and how to use <span class="highlight">MySQL</span> database.
+          </p>
+        </article>
+        <article id="skill_one">
+          <div class="skill_headline">
+            <div>
+              <i class="fab fa-searchengin"></i>
+            </div>
+            <h3>UI/UX&nbsp;design</h3>
+          </div>
+          <p>
+            I offer my skills working with fresh and authentic ideas in order
+            to create intuitive and pleasurable interfaces. Some of
+            technologies that I am familiar with are <span class="highlight">Adobe XD, Photoshop, Illustrator</span> and
+            <span class="highlight">Figma</span>.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="my_latest_projects" id="my_latest_projects">
+      <h2>My Latest Projects</h2>
+
       <div class="flex">
 
-          <section class="hero">
-              <h1>Hi, my name is Antonio.</h1>
-              <hr class="hr1" />
-              <p>
-                  Multimedia Design Student with passion in UX design and Front-end
-                  development
-                </p>
-                <hr class="hr1" />
-                <div class="hero_buttons_container flex">
-                    <div class="button_hero">
-                        <a class="download_cv_button cv_btn_hover" href="images/cv.pdf">Download CV</a>
-                    </div>
-                    <div class="button_hero button_hero2">
-                        <a class="see_my_projects_button" href="#studycases"
-                        >See my projects</a
-                        >
-                    </div>
-                </div>
-            </section>
-            <section class="hero_image">
-                <img src="assets/images/heronew.svg" alt="">
-            </section>
-        </div>
-        <div class="arrow-wrapper">
-              <a href="#about_me">
-          <i id="arrow-down-pause" class="fas fa-arrow-down fa-3x"></i>
-        </a>
-        </div>
-    </header>
-    <main>
-      <section class="about_me" id="about_me">
-        <h2>More about me</h2>
-        <div class="about_me_info">
-          <p class="about_me_intro">
-            My curiousity back from the primary school made me passionate in
-            front end development, since I always wanted to know how all this
-            beautiful stuff works behind the screens. So, here I am today,
-            full-time student at UCN in Aalborg, Denmark. Studying Multimedia
-            design, with a focus on both UI/UX design and front-end development.
+        <div class="project_information">
+          <div class="project_img">
+            <div class="project_img_img">
+              <img src=" assets/images/blokhus.png " alt=" Project two " />
+            </div>
+          </div>
+          <h3>Blokhus</h3>
+          <p>
+            <strong>Task:</strong> Make a new site for Restaurant Mest that
+            will focus only on the B2C part of their website.
           </p>
-          <p class="about_me_intro_two">
-            It has always been my passion to work with computers. Recently I
-            have learned a lot about web design throughout my studies and
-            interests. I would like to continue with my hobby and also share my
-            knowledge with you.
+          <p><strong>My role:</strong> User Research, Web Design, Coding</p>
+          <div class="case_btn">
+            <a href="blokhus_project.html">See whole process</a>
+            <a href=" https://github.com/Kizza00232Jera/Blokhus_website.git" target="_blank">view code</a>
+            <a class="project_website" href="https://kizza00232jera.github.io/Blokhus_website/" target="_blank">view
+              website</a>
+          </div>
+        </div>
+        <div class="project_information">
+          <div class="project_img">
+            <div class="project_img_img">
+              <img src=" assets/images/loop.png " alt=" Project two " />
+            </div>
+          </div>
+          <h3>Loop</h3>
+          <p>
+            <strong>Task:</strong> Make a new site for Restaurant Mest that
+            will focus only on the B2C part of their website.
           </p>
-          <div class="info_list">
-            <ul>
-              <li>
-                <div class="info_item">
-                  <label class="label_container">
-                    <label class="left_label"> Date of birth - </label>
-                    <label class="right_label"> 27.01.2000. </label>
-                  </label>
-                </div>
-              </li>
-              <li>
-                <div class="info_item">
-                  <label class="label_container">
-                    <label class="left_label"> Born in - </label>
-                    <label class="right_label"> Požega, Croatia </label>
-                  </label>
-                </div>
-              </li>
-              <li>
-                <div class="info_item">
-                  <label class="label_container">
-                    <label class="left_label"> Currently live in - </label>
-                    <label class="right_label">Aalborg, Denmark</label>
-                  </label>
-                </div>
-              </li>
-              <li>
-                <div class="info_item">
-                  <label class="label_container">
-                    <label class="left_label"> Level of education - </label>
-                    <label class="right_label">
-                      Academy Profession Degree
-                    </label>
-                  </label>
-                </div>
-              </li>
-            </ul>
-            <div class="about_me_social">
-              <p>Feel free to contact me on one of these platforms:</p>
-              <div class="about_me_social_icon">
-                <a href="mailto:antonio.jera10@gmail.com">
-                  <i class="fas fa-envelope fa-3x"></i>
-                </a>
-                <a
-                  href="https://www.instagram.com/antonio00232/"
-                  target="_blank"
-                >
-                  <i class="fab fa-instagram fa-3x"></i>
-                </a>
-                <a
-                  href="https://github.com/Kizza00232Jera?tab=repositories"
-                  target="_blank"
-                >
-                  <i class="fab fa-github fa-3x"></i>
-                </a>
-              </div>
-            </div>
+          <p><strong>My role:</strong> User Research, Web Design, Coding</p>
+          <div class="case_btn">
+            <a href=" # ">See whole process</a>
+            <a href=" https://github.com/Kizza00232Jera/loop_website.git" target="_blank">view code</a>
+            <a class="project_website" href="https://kizza00232jera.github.io/loop_website/ " target="_blank">view
+              website</a>
           </div>
         </div>
-      </section>
-      <section class="my_skills" id="my_skills">
-        <h2>These are my skills</h2>
-        <div class="flex my_skills_neg_mar">
-          <article id="skill_one">
-            <div class="skill_headline">
-              <div>
-                <i class="fas fa-code"></i>
-              </div>
-              <h3>Front&nbsp;end&nbsp;technologies</h3>
+
+
+        <div class="project_information">
+          <div class="project_img">
+            <div class="project_img_img">
+              <img src=" assets/images/svale.png " alt=" Project two " />
             </div>
-            <p>
-              I am building responsive websites using HTML, CSS and Javascript.
-              I have knowledge to create dynamic webpages using WordPress and
-              I'm currently learning basics in Vue.
-            </p>
-          </article>
-          <article id="skill_one">
-            <div class="skill_headline">
-              <div>
-                <i class="fas fa-database"></i>
-              </div>
-              <h3>Back&nbsp;end&nbsp;technologies</h3>
-            </div>
-            <p>
-              As a part of education, I've decided to study about API in 4 weeks
-              elective. In that time we learned how to create projects with
-              Node.js and how to use MySQL as databases.
-            </p>
-          </article>
-          <article id="skill_one">
-            <div class="skill_headline">
-              <div>
-                <i class="fab fa-searchengin"></i>
-              </div>
-              <h3>UI/UX&nbsp;design</h3>
-            </div>
-            <p>
-              I offer my skills working with fresh and authentic ideas in order
-              to create intuitive and pleasurable interfaces. Some of
-              technologies that I am familiar with are Adobe XD, Photoshop,
-              Illustrator and Figma.
-            </p>
-          </article>
+          </div>
+          <h3>SVALEGAARDEN MEST</h3>
+          <p>
+            <strong>Task:</strong> Make a new site for Restaurant Mest that
+            will focus only on the B2C part of their website.
+          </p>
+          <p><strong>My role:</strong> User Research, Web Design, Coding</p>
+          <div class="case_btn">
+            <a href=" # ">See whole process</a>
+            <a href="https://github.com/Kizza00232Jera/Svalegaarden_Mest.git " target="_blank">view code</a>
+            <a class="project_website" href=" https://kizza00232jera.github.io/Svalegaarden_Mest/ " target="_blank">view
+              website</a>
+          </div>
         </div>
-      </section>
-
-      <section class="my_latest_projects" id="my_latest_projects">
-        <h2>My Latest Projects</h2>
-
-        <div class="flex">
-          
-          <div class="project_information">
-            <div class="project_img">
-              <div class="project_img_img">
-                <img src=" assets/images/blokhus.png " alt=" Project two " />
-              </div>
-            </div>
-            <h3>Blokhus</h3>
-            <p>
-              <strong>Task:</strong> Make a new site for Restaurant Mest that
-              will focus only on the B2C part of their website.
-            </p>
-            <p><strong>My role:</strong> User Research, Web Design, Coding</p>
-            <div class="case_btn">
-              <a
-              href="blokhus_project.html"
-               >See whole process</a>
-              <a href=" https://github.com/Kizza00232Jera/Blokhus_website.git" target="_blank">view code</a>
-              <a class="project_website"  href="https://kizza00232jera.github.io/Blokhus_website/" target="_blank">view website</a>
+        <div class="project_information pc_none">
+          <div class="project_img">
+            <div class="project_img_img">
+              <img src=" assets/images/festival.png " alt=" Project two " />
             </div>
           </div>
-          <div class="project_information">
-            <div class="project_img">
-              <div class="project_img_img">
-                <img src=" assets/images/loop.png " alt=" Project two " />
-              </div>
-            </div>
-            <h3>Loop</h3>
-            <p>
-              <strong>Task:</strong> Make a new site for Restaurant Mest that
-              will focus only on the B2C part of their website.
-            </p>
-            <p><strong>My role:</strong> User Research, Web Design, Coding</p>
-            <div class="case_btn">
-              <a
-              href=" # "
-              >See whole process</a
-              >
-              <a href=" https://github.com/Kizza00232Jera/loop_website.git" target="_blank">view code</a>
-              <a class="project_website" href="https://kizza00232jera.github.io/loop_website/ " target="_blank" >view website</a>
-            </div>
+          <h3>Musik festival</h3>
+          <p>
+            <strong>Task:</strong> Make a new site for Restaurant Mest that
+            will focus only on the B2C part of their website.
+          </p>
+          <p><strong>My role:</strong> User Research, Web Design, Coding</p>
+          <div class="case_btn">
+            <a href=" # ">See whole process</a target="_blank">
+            <a href=" https://github.com/Kizza00232Jera/musicfestival.git " target="_blank">view code</a>
+            <a class="project_website" href=" https://kizza00232jera.github.io/musicfestival/ " target="_blank">view
+              website</a>
           </div>
-      
-        
-            <div class="project_information">
-              <div class="project_img">
-                <div class="project_img_img">
-                  <img src=" assets/images/svale.png " alt=" Project two " />
-                </div>
-              </div>
-              <h3>SVALEGAARDEN MEST</h3>
-              <p>
-                <strong>Task:</strong> Make a new site for Restaurant Mest that
-                will focus only on the B2C part of their website.
-              </p>
-              <p><strong>My role:</strong> User Research, Web Design, Coding</p>
-              <div class="case_btn">
-                <a
-                href=" # "
-               >See whole process</a
-                >
-                <a href="https://github.com/Kizza00232Jera/Svalegaarden_Mest.git " target="_blank">view code</a>
-                <a class="project_website" href=" https://kizza00232jera.github.io/Svalegaarden_Mest/ " target="_blank">view website</a>
-              </div>
-            </div>
-            <div class="project_information pc_none">
-              <div class="project_img">
-                <div class="project_img_img">
-                  <img src=" assets/images/festival.png " alt=" Project two " />
-                </div>
-              </div>
-              <h3>Musik festival</h3>
-              <p>
-                <strong>Task:</strong> Make a new site for Restaurant Mest that
-                will focus only on the B2C part of their website.
-              </p>
-              <p><strong>My role:</strong> User Research, Web Design, Coding</p>
-              <div class="case_btn">
-                <a
-                href=" # "  
-                  >See whole process</a
-                  target="_blank"  >
-                <a href=" https://github.com/Kizza00232Jera/musicfestival.git " target="_blank">view code</a>
-                <a class="project_website" href=" https://kizza00232jera.github.io/musicfestival/ " target="_blank">view website</a>
-              </div>
-            </div>
-          <!--
+        </div>
+        <!--
           https://kizza00232jera.github.io/forex_forum/ 
           https://kizza00232jera.github.io/Svalegaarden_Mest/
           https://kizza00232jera.github.io/musicfestival/
@@ -302,16 +280,17 @@
           https://kizza00232jera.github.io/Blokhus_website/
           https://kizza00232jera.github.io/diabetic_webapp/
           -->
-          
-          </div>
 
-        <div class="all_projects_btn">
-          <a href=" projects.html ">See my all projects</a>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <p>© 2020 Antonio Jerkovic. All Rights Reserved</p>
-    </footer>
-  </body>
+      </div>
+
+      <div class="all_projects_btn">
+        <a href=" projects.html ">See my all projects</a>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2020 Antonio Jerkovic. All Rights Reserved</p>
+  </footer>
+</body>
+
 </html>

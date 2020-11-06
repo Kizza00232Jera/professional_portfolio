@@ -47,6 +47,7 @@ body {
 
 body h1 {
   font-size: 40px;
+  color: var(--dblue);
 }
 
 body h2 {
@@ -71,6 +72,11 @@ body footer ul {
 
 body a {
   font-size: 15px;
+}
+
+.highlight {
+  font-weight: 800;
+  color: var(--dblue);
 }
 
 /* SCROLL */
@@ -241,7 +247,6 @@ header .flex section {
 .hero h1 {
   padding-top: 15vw;
   width: 75%;
-  color: var(--black);
 }
 
 .hero p {
@@ -574,6 +579,99 @@ a.project_website:hover {
 display: unset;
 }
 
+/* SVALE PAGE */
+/* hero */
+.svale .hero_image img {
+  margin: 1vw 0% 0 10%;
+  padding: 0% 0% 0 0;
+  width: 80%;
+}
+
+.svale .hero h1 {
+  padding-top: 8vw;
+  width: 75%;
+}
+
+.svale section.hero {
+  height: unset;
+}
+
+/* svale main */
+.svale .about_me {
+  width: 86vw;
+  margin: 0 auto;
+  max-width: unset;
+}
+
+.svale .about_me h2 {
+  margin-top: 60px;
+}
+
+/* my role */
+.svale .my_roles h2 {
+  margin: 0;
+}
+
+.question {
+  color: var(--black);
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  background-color: var(--white);
+  border-radius: 5px;
+    border: 1px solid var(--orange);
+}
+
+.question_active, 
+.question:hover {
+  background-color: var(--dblue);
+  color: var(--white);
+  border-radius: unset;
+    border: unset;
+}
+
+.answer_box {
+  padding: 0 2vw;
+  background-color: var(--white);
+  margin: 0 0 0.5vw 1vw;
+  border-radius: 25px 0 0 25px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s ease-out;
+  text-align: left;
+
+}
+
+.answer_box p {
+  padding: 1vw 0;
+}
+
+.question:after {
+  content: '\002B';
+  color: var(--black);
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.question_active:after {
+  content: "\2212";
+  color: var(--white);
+}
+
+.right_side .answer_box {
+  border-radius: 0 25px 20px 0;
+}
+
+.svale .answer_box img {
+  max-height: 800px;
+  padding: 20px;
+}
+
 
 @media (min-width: 1800px) {
   
@@ -633,6 +731,25 @@ display: unset;
 .projects_page main .flex {
   display: unset;
 }
+
+/* SVALE PAGE  */
+/* hero */
+.svale .hero_image img {
+  margin: 2vw 0 0 15%;
+  padding: 0% 0% 0 0;
+  width: 75%;
+}
+
+.svale .hero h1 {
+  width: 50%;
+}
+
+.svale .about_me {
+  width: 75%;
+  max-width: unset;
+}
+
+
 
 }
 
@@ -843,6 +960,14 @@ display: unset;
 .projects_page main .flex{
 display: unset;
 }
+
+/* SVALE PAGE */
+/* hero */
+.svale .hero_image img {
+  margin: 6vw 0% 0 10%;
+  width: 80%;
+}
+
 }
 
 
@@ -1117,11 +1242,18 @@ section.hero {
 
 .about_me .info_list {
     padding: 5% 3% 5% 3%;
+    font-size: 14px;
 }
 
 .about_me_social_icon {
     text-align: center;
 }
+
+.about_me_social_icon .fa-3x {
+  font-size: 2.2em;
+}
+
+
 
   /* my skills */
 
