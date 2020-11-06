@@ -96,7 +96,14 @@ body a {
   background-image: var(--gradient_hr);
 }
 
-/* THIS APPLIES ON ALL PAGES */
+/* mobile none*/
+.mobile_none {
+  display: inline-block;
+}
+.pc_none {
+  display: none;
+}
+
 
 /* navigation */
 
@@ -105,10 +112,6 @@ body a {
 	text-decoration: none;
 	background-color: var(--dblue);
 	transition: box-shadow .2s ease-out;
-}
-
-.btn:active {
-	box-shadow: var(--frp-shadow-depressed);
 }
 
 body header nav {
@@ -220,8 +223,6 @@ header nav ul li ul li a:hover {
 
 section.hero {
   height: calc(100vh - 80px);
-  /* background-color: red;*/
-  /*background-image: url(../images/hero001.jpg);*/
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -251,10 +252,8 @@ header .flex section {
 }
 
 .hero_image img {
-  /* padding: 16% 0% 0 0; */
   margin: 11vw 0% 0 0;
   padding: 0% 0% 0 0;
-  /* height: 650px;*/
   width: 80%;
 }
 
@@ -476,14 +475,6 @@ section.my_latest_projects {
   margin: 5% 0;
 }
 
-/*.my_skills div article {
-    text-align: left;
-    margin: 1%;
-    padding: 3% 2%;
-    background-color: var(--gray_bg);
-    width: 31%;
-    border-radius: 10px;
-}*/
 
 .project_img {
   width: 100%;
@@ -676,6 +667,14 @@ display: unset;
   .arrow-wrapper {
     display: none;
   }
+
+  /* mobile none*/
+  .mobile_none {
+    display: inline-block;
+  }
+  .pc_none {
+    display: none;
+  }
   /* navigation */
   
   .flex.nav_space {
@@ -774,11 +773,6 @@ display: unset;
     }
 
     .download_cv_button {
-        /* background-color: var(--orange); */
-        /* box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25); */
-        /* border-radius: 8px; */
-        /* color: var(--white); */
-        /* padding: 7% 10%; */
         background-color: unset;
         box-shadow: none;
         color: var(--white);
@@ -787,11 +781,6 @@ display: unset;
     }
     
     .see_my_projects_button {
-        /* background-color: var(--orange); */
-        /* box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25); */
-        /* border-radius: 8px; */
-        /* color: var(--white); */
-        /* padding: 7% 10%; */
         background-color: unset;
         box-shadow: none;
         color: var(--orange);
@@ -903,6 +892,15 @@ display: unset;
     background-color: unset;
 }
 
+/* mobile none*/
+
+.mobile_none {
+  display: none;
+}
+.pc_none {
+  display: block;
+}
+
 header nav ul li ul li a:hover {
     background-color: unset;
 }
@@ -924,7 +922,6 @@ background-color: unset;
   header nav {
 		width: 100vw;
 		height: 100vh;
-		background-color: grey;
 		position: fixed;
 		z-index: 100;
 		transform: translateX(100%);
@@ -1095,11 +1092,6 @@ section.hero {
 }
 
 .download_cv_button {
-    /* background-color: var(--orange); */
-    /* box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25); */
-    /* border-radius: 8px; */
-    /* color: var(--white); */
-    /* padding: 7% 10%; */
     background-color: unset;
     box-shadow: none;
     color: var(--white);
@@ -1109,11 +1101,6 @@ section.hero {
 }
 
 .see_my_projects_button {
-    /* background-color: var(--orange); */
-    /* box-shadow: 0px 4px 8px rgba(141, 58, 58, 0.25); */
-    /* border-radius: 8px; */
-    /* color: var(--white); */
-    /* padding: 7% 10%; */
     background-color: unset;
     box-shadow: none;
     color: var(--orange);
@@ -1199,7 +1186,7 @@ section.hero {
 }
 
 .projects_page .my_latest_projects h2 {
-  margin-top: 80px;
+  margin-top: 0;
 }
 
 .projects_page .nav_space {
