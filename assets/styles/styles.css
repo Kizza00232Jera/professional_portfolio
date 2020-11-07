@@ -11,7 +11,7 @@
 }
 
 :root {
-  --orange: #ce7b0d;
+  --orange: #bb6a01;
   --gradient_blue: linear-gradient(
     to right,
     rgb(3, 147, 214),
@@ -613,25 +613,28 @@ display: unset;
 }
 
 .question {
-  color: var(--black);
+  color: var(--white);
   cursor: pointer;
-  padding: 18px;
+  padding: 20px;
+  margin: 7px 0;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
   transition: 0.4s;
-  background-color: var(--white);
-  border-radius: 5px;
-    border: 1px solid var(--orange);
+  background-color: var(--orange);
+  border-radius: 15px;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 8px rgba(141, 141, 141, 0.527);
+  
 }
 
 .question_active, 
 .question:hover {
-  background-color: var(--dblue);
-  color: var(--white);
-  border-radius: unset;
-    border: unset;
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--orange);
+  border-radius: 15px;
 }
 
 .answer_box {
@@ -652,7 +655,7 @@ display: unset;
 
 .question:after {
   content: '\002B';
-  color: var(--black);
+  color: var(--white);
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -660,7 +663,7 @@ display: unset;
 
 .question_active:after {
   content: "\2212";
-  color: var(--white);
+  color: var(--black);
 }
 
 .right_side .answer_box {
@@ -882,6 +885,7 @@ display: unset;
         background-color: var(--orange);
         border-radius: 5px;
         padding: 2% 3%;
+        box-shadow: 0px 4px 8px rgba(141, 141, 141, 0.527);
     }
 
     .button_hero2 {
@@ -1201,6 +1205,7 @@ section.hero {
 
 .button_hero {
     background-color: var(--orange);
+    box-shadow: 0px 4px 8px rgba(141, 141, 141, 0.527);
     border-radius: 5px;
     padding: 2% 3%;
 }
