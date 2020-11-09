@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Specializing in responsive designs, custom and dynamic web solutions with the help of HTML5, CSS3, JavaScript and WordPress!" />
+  <link rel="shortcut icon" href="assets/images/tablogo.png" type="image/x-icon" width="16" height="16" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/styles/all.css" type="text/css" />
+  <link rel="stylesheet" href="assets/styles/styles.css" />
+  <script src="assets/scripts/main.js" defer></script>
+  <script src="assets/scripts/roletoggle.js" defer></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <title>Antonio | portfolio</title>
+</head>
+
+<body class="projects_process_details loop_process_page">
+  <header>
+    <div id="menuButtonWrapper">
+      <a class="btn" onclick="menuOn();return false" href="#"><i class="fas fa-bars fa-2x"></i></a>
+    </div>
+    <nav>
+      <div id="menuCloseButtonWrapper">
+        <a class="btn btn2" onclick="menuOff();return false" href="#"><i class="fas fa-bars fa-2x"></i></a>
+      </div>
+      <div class="flex nav_space">
+        <ul class="logodiv">
+          <li class="logo">
+            <a href="index.html">
+              <img src="assets/images/logo.png" alt="logo" /></a>
+          </li>
+        </ul>
+        <ul>
+          <li class="pc_none"><a href="index.html"> <img src="assets/images/logo.png" alt="logo"></a></li>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li class="mobile_none"><a href="index.html#about_me">about me</a></li>
+          <li class="mobile_none">
+            <a href="projects.html">my projects</a>
+            <ul>
+              <li><a href="blokhus_project.html">Blokhus</a></li>
+              <li><a href="loop_project.html">Loop Microsite</a></li>
+              <li><a href="svale_project.html">Svalegaarden Mest</a></li>
+            </ul>
+          </li>
+          <li class="pc_none"><a href="projects.html">my projects</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="flex">
+      <section class="hero">
+        <h1>Loop Fitness Microsite</h1>
+        <hr class="hr1" />
+        <p>
+          <span class="highlight">Product:</span> Responsive microsite made with grids
+        </p>
+        <p>
+          <span class="highlight">My role:</span> User research, Web Design,
+          Front-end developer
+        </p>
+        <hr class="hr1" />
+        <div class="hero_buttons_container flex">
+          <div class="button_hero">
+            <a class="download_cv_button cv_btn_hover" href="https://kizza00232jera.github.io/Blokhus_website/">View
+              website</a>
+          </div>
+          <div class="button_hero button_hero2">
+            <a class="see_my_projects_button" href="https://github.com/Kizza00232Jera/Blokhus_website.git">View Code</a>
+          </div>
+        </div>
+      </section>
+      <section class="hero_image">
+        <img src="assets/images/loop/loop-screen.png" alt="blokhus_hero_image" />
+      </section>
+    </div>
+  </header>
+  <main>
+    <section class="about_me">
+      <h2>Problem and the task</h2>
+      <div class="about_me_info">
+        <p class="about_me_intro">
+          The problem that Loop Fitness faces every year is that they get
+          overcrowded in january (after Christmas and New Year holidays)
+          because they have campaign for 1 DKK every autumn and winter.
+        </p>
+        <p class="about_me_intro_two">
+          Our task was to create microsite where we encourage people to start
+          their fitness journey earlier, during November, not wait until they
+          get out of shape to take care of their physical and mental health
+          and to show people why Loop Fitness is the right place to head start
+          an active lifestyle.
+        </p>
+      </div>
+    </section>
+    <section class="about_me my_roles">
+      <h2>Our process</h2>
+      <div class="faq_container">
+        <button class="question">Click to see User Research</button>
+        <div class="answer_box">
+          <p>
+            We started the project by getting to know the client in order to
+            plan and conduct the user research. The team prepared for a client
+            meeting by doing a partial content inventory of Loop's main
+            website to gain insight on the client's values.
+          </p>
+          <p>
+            After that, we did interviews where target people were from
+            Denmark and over the age of 30 (that was information we gained
+            from the meeting with the company). We decided to split those
+            people in two groups, the first group were those who already
+            workout and the second those who don't.
+          </p>
+          <div class="for_slideshow">
+            <p class="highlight">Interview Guide(people who workout):</p>
+            <img src="assets/images/loop/loop_interview1.png" alt="" />
+          </div>
+          <div class="for_slideshow">
+            <p class="highlight">
+              Interview Guide(people who do not workout):
+            </p>
+            <img src="assets/images/loop/loop_interview2.png" alt="" />
+          </div>
+        </div>
+
+        <button class="question">Click to see Web Design</button>
+
+        <div class="answer_box">
+          <p>
+            We started design process by brainstorming session where we all
+            came up with layout ideas in form of paper prototypes (sketches)
+            and wireframes in Adobe XD. After that we combined our ideas into
+            one high-fidelity prototype. The color palette was taken from Loop
+            Fitness' main website and the navigation was also inspired by what
+            they already had at that time. We also decided to have part
+            dedicated to the Christmas.
+          </p>
+          <div class="for_slideshow">
+            <p class="highlight">High Fidelity prototype</p>
+            <img src="assets/images/loop/loop_lowfi.png" alt="" />
+          </div>
+        </div>
+
+        <button class="question">Click to see Coding part</button>
+
+        <div class="answer_box">
+          <p>
+            All the content was organized in a grid system. The grid consisted of two big columns for the image and text
+            with a gap between and empty space before and after the content.
+          </p>
+          <div class="for_slideshow">
+            <p class="highlight">Grid</p>
+            <img src="assets/images/loop/loop_code1.png" alt="" />
+          </div>
+          <div class="for_slideshow">
+            <p class="highlight">Grid</p>
+            <img src="assets/images/loop/loop_code2.png" alt="" />
+          </div>
+          <div class="for_slideshow">
+            <p class="highlight">Grid</p>
+            <img src="assets/images/loop/loop_code3.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p>© 2020 Antonio Jerkovic. All Rights Reserved</p>
+  </footer>
+</body>
+
+</html>

@@ -13,13 +13,14 @@ function menuOff(){
 
 
 /* refresh page on mobiles when clicking on about me or projects*/ 
-const refreshSkills = document.querySelector('.refresh')
+/* not using anymore */
+// const refreshSkills = document.querySelector('.refresh')
 
-const refreshPage = () => {
-    location.reload();
-    // console.log('here');
-}
+// const refreshPage = () => {
+//     location.reload();
+//     // console.log('here');
+// }
 
-refreshSkills.addEventListener('click', refreshPage);
+// refreshSkills.addEventListener('click', refreshPage);
 
 

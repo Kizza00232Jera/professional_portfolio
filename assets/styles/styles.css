@@ -31,7 +31,7 @@
     #ffffff2d
   );
   --gray_bg: #eaeaec;
-  --gray_bg2: #d3d3d4;
+  --gray_bg2: #a0a0a0;
   --dblue: #195c6b;
   --lblue: #46bbd3;
   --lblue: #195c6b;
@@ -145,6 +145,10 @@ header nav {
 header nav img {
   height: 80px;
   padding: 0;
+}
+
+header nav li.pc_none img {
+  height: 50px;
 }
 
 header nav ul {
@@ -579,36 +583,40 @@ a.project_website:hover {
 display: unset;
 }
 
-/* SVALE PAGE */
+/* projects process PAGE */
 /* hero */
-.svale .hero_image img {
+.projects_process_details .hero_image img {
   margin: 1vw 0% 0 10%;
   padding: 0% 0% 0 0;
   width: 80%;
 }
 
-.svale .hero h1 {
+.loop_process_page .hero_image img {
+  margin: 8vw 0 0 10%;
+}
+
+.projects_process_details .hero h1 {
   padding-top: 8vw;
   width: 75%;
 }
 
-.svale section.hero {
+.projects_process_details section.hero {
   height: unset;
 }
 
-/* svale main */
-.svale .about_me {
+/* projects process main */
+.projects_process_details .about_me {
   width: 86vw;
   margin: 0 auto;
   max-width: unset;
 }
 
-.svale .about_me h2 {
+.projects_process_details .about_me h2 {
   margin-top: 60px;
 }
 
 /* my role */
-.svale .my_roles h2 {
+.projects_process_details .my_roles h2 {
   margin: 0;
 }
 
@@ -670,11 +678,22 @@ display: unset;
   border-radius: 0 25px 20px 0;
 }
 
-.svale .answer_box img {
+.projects_process_details .answer_box img {
   max-height: 800px;
   padding: 20px;
+  max-width: 100%;
 }
 
+/* gray buttons for unfinished process page*/
+.case_btn a.gray_btn {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
+}
+
+.case_btn a.gray_btn:hover {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
+}
 
 @media (min-width: 1800px) {
   
@@ -735,24 +754,37 @@ display: unset;
   display: unset;
 }
 
-/* SVALE PAGE  */
+/* projects details PAGE  */
 /* hero */
-.svale .hero_image img {
+.projects_process_details .hero_image img {
   margin: 2vw 0 0 15%;
   padding: 0% 0% 0 0;
   width: 75%;
 }
 
-.svale .hero h1 {
+.loop_process_page .hero_image img {
+  margin: 10vw 0 0 15%;
+}
+
+.projects_process_details .hero h1 {
   width: 50%;
 }
 
-.svale .about_me {
+.projects_process_details .about_me {
   width: 75%;
   max-width: unset;
 }
 
+/* gray buttons for unfinished process page*/
+.case_btn a.gray_btn {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
+}
 
+.case_btn a.gray_btn:hover {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
+}
 
 }
 
@@ -965,11 +997,26 @@ display: unset;
 display: unset;
 }
 
-/* SVALE PAGE */
+/* project process PAGE */
 /* hero */
-.svale .hero_image img {
+.projects_process_details .hero_image img {
   margin: 6vw 0% 0 10%;
   width: 80%;
+}
+
+.loop_process_page .hero_image img {
+  margin: 9vw 0 0 10%;
+}
+
+/* gray buttons for unfinished process page*/
+.case_btn a.gray_btn {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
+}
+
+.case_btn a.gray_btn:hover {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
 }
 
 }
@@ -1328,5 +1375,16 @@ section.hero {
 
 .projects_page .nav_space {
   width: 85%;
+}
+
+/* gray buttons for unfinished process page*/
+.case_btn a.gray_btn {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
+}
+
+.case_btn a.gray_btn:hover {
+  background-color: var(--gray_bg2);
+  cursor: not-allowed;
 }
 }
