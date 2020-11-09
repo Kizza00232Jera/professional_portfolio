@@ -23,4 +23,3 @@ function menuOff(){
 
 // refreshSkills.addEventListener('click', refreshPage);
 
-

@@ -478,6 +478,7 @@ section.my_latest_projects {
   padding: 2% 3%;
   border: 1px solid var(--orange);
   border-radius: 10px;
+  flex: 1;
 }
 
 .project_information p {
@@ -573,6 +574,7 @@ a.project_website:hover {
   border-radius: 10px;
   display: inline-block;
   width: 24%;
+  height: 1000px;
 }
 
 .projects_page .nav_space {
