@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Specializing in responsive designs, custom and dynamic web solutions with the help of HTML5, CSS3, JavaScript and WordPress!" />
+    <link rel="shortcut icon" href="assets/images/tablogo.png" type="image/x-icon" width="16" height="16" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/styles/all.css" type="text/css" />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script src="assets/scripts/main.js" defer></script>
+    <script src="assets/scripts/roletoggle.js" defer></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <title>Antonio | portfolio</title>
+</head>
+
+<body class="projects_process_details">
+    <header>
+        <div id="menuButtonWrapper">
+            <a class="btn" onclick="menuOn();return false" href="#"><i class="fas fa-bars fa-2x"></i></a>
+        </div>
+        <nav>
+            <div id="menuCloseButtonWrapper">
+                <a class="btn btn2" onclick="menuOff();return false" href="#"><i class="fas fa-bars fa-2x"></i></a>
+            </div>
+            <div class="flex nav_space">
+                <ul class="logodiv">
+                    <li class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo.png" alt="logo" /></a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="pc_none"><a href="index.html"> <img src="assets/images/logo.png" alt="logo"></a></li>
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li class="mobile_none"><a href="index.html#about_me">about me</a></li>
+                    <li class="mobile_none"> <a href="projects.html">my projects</a>
+                        <ul>
+                            <li><a href="blokhus_project.html">Blokhus</a></li>
+                            <li><a href="loop_project.html">Loop Microsite</a></li>
+                            <li><a href="svale_project.html">Svalegaarden Mest</a></li>
+                            <li><a href="forum_project.html">Forex Forum</a></li>                           
+                        </ul>
+                    </li>
+                    <li class="pc_none"><a href="projects.html">my projects</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="flex">
+            <section class="hero">
+                <h1>Forex Forum</h1>
+                <hr class="hr1" />
+                <p>
+                    <span class="highlight">Product:</span> Fully Custom API Solution (functional register, log in,
+                    create post, comment, edit, delete, view profiles)
+                </p>
+                <p>
+                    <span class="highlight">My role:</span>
+                    Back-end developer, managing databases
+                </p>
+                <hr class="hr1" />
+                <div class="hero_buttons_container flex">
+                    <div class="button_hero">
+                        <a class="download_cv_button cv_btn_hover"
+                            href="#presentation_tier">View
+                            process</a>
+                    </div>
+                    <div class="button_hero button_hero2">
+                        <a class="see_my_projects_button" href="https://github.com/Kizza00232Jera/forex_forum.git">View
+                            Code</a>
+                    </div>
+                </div>
+            </section>
+            <section class="hero_image">
+                <img src="assets/images/forex.png" alt="forex_hero_image" />
+            </section>
+        </div>
+    </header>
+    <main>
+        <section class="about_me">
+            <h2>Problem and the task</h2>
+            <div class="about_me_info">
+                <p class="about_me_intro">
+                    The main purpose of building a white-labelled forum solution was to delimit confusion and integrate
+                    users faster. In the basic forum we included functions such as creating topics, leaving comments and
+                    creating user profiles.
+                </p>
+                <p class="about_me_intro_two">
+                    Unfortunately, database where we stored all the data is shut down so we website is no longer
+                    working. But it is possible to see pictures bellow in Presentation Tier of how forum looked like
+                    when it was
+                    working.
+                </p>
+            </div>
+        </section>
+        <section class="about_me my_roles">
+            <h2>See process in each tier</h2>
+            <div class="faq_container">
+
+                <button class="question" id="presentation_tier">Click to see Presentation Tier</button>
+
+                <div class="answer_box">
+                    <p>
+                        In the Presentation Tier, we worked with key design principals to develop and establish a
+                        white-labeled forum solution. Eventhough the focus of the project was not on design, we wanted
+                        to achieve a uniformed forum layout so that users can easily adapt to the layout if our solution
+                        is used by multiple companies/businesses.
+                    </p>
+                    <div class="for_slideshow">
+                        <p class="highlight">Register form</p>
+                        <img src="assets/images/forum/registerForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">Login form</p>
+                        <img src="assets/images/forum/loginForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">Main page where user can see all the posts or create a post.</p>
+                        <img src="assets/images/forum/postsForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">List of the users, different type of users are colored differently and they
+                            can do different tasks. E.g normal user can't edit or delete post.</p>
+                        <img src="assets/images/forum/users.png" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">Profile page</p>
+                        <img src="assets/images/forum/profileForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">Editing the profile.</p>
+                        <img src="assets/images/forum/updateForex.jpg" alt="" />
+                    </div>
+
+                </div>
+
+                <button class="question">Click to see Logic Tier</button>
+
+                <div class="answer_box">
+                    <p>
+                        We worked with Express.js and object oriented development to establish the logic or so called
+                        back-end of our application. 3 classes and 10 main routes were created so that our API could
+                        function the way we wanted it to. Our solution for this tier, wasn't optimal and there is room
+                        for improvement, but we now have the experience to understand this and prepare future projects
+                        with better route handling.
+                    </p>
+                    <div class="for_slideshow">
+                        <p class="highlight">Joi validate</p>
+                        <img src="assets/images/forum/validationForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">3 classes/models</p>
+                        <img src="assets/images/forum/modelsForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">10 routes</p>
+                        <img src="assets/images/forum/routesForex.jpg" alt="" />
+                    </div>
+                </div>
+
+                <button class="question">Click to see Data Tier</button>
+
+                <div class="answer_box">
+                    <p>
+                        We started off by designing our ERD (Entity Relationship Diagram) and establishing each of the
+                        tables and properties. Through user input, we are able to update user information as well as
+                        post information. Right now, the application lacks proper date handling as well as image
+                        handling, however, with future projects we will work towards accomplishing this.
+                    </p>
+                    <div class="for_slideshow">
+                        <p class="highlight">ERD (Entity Relationship Diagram)</p>
+                        <img src="assets/images/forum/erdForex.jpg" alt="" />
+                    </div>
+                    <div class="for_slideshow">
+                        <p class="highlight">Creating tables and relationships</p>
+                        <img src="assets/images/forum/diagForex.jpg" alt="" />
+                    </div>         
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>© 2020 Antonio Jerkovic. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

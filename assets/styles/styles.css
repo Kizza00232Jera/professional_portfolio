@@ -689,6 +689,8 @@ display: unset;
 .case_btn a.gray_btn {
   background-color: var(--gray_bg2);
   cursor: not-allowed;
+  color: white;
+  border: unset;
 }
 
 .case_btn a.gray_btn:hover {
@@ -780,6 +782,8 @@ display: unset;
 .case_btn a.gray_btn {
   background-color: var(--gray_bg2);
   cursor: not-allowed;
+  color: white;
+  border: unset;
 }
 
 .case_btn a.gray_btn:hover {
@@ -1013,6 +1017,8 @@ display: unset;
 .case_btn a.gray_btn {
   background-color: var(--gray_bg2);
   cursor: not-allowed;
+  color: white;
+  border: unset;
 }
 
 .case_btn a.gray_btn:hover {
@@ -1203,6 +1209,10 @@ background-color: unset;
     margin: 0 auto;
 }
 
+.projects_process_details .hero p {
+  margin: 5% auto;
+}
+
 .hero hr {
     margin: 2% auto;
 }
@@ -1382,6 +1392,8 @@ section.hero {
 .case_btn a.gray_btn {
   background-color: var(--gray_bg2);
   cursor: not-allowed;
+  color: white;
+  border: unset;
 }
 
 .case_btn a.gray_btn:hover {
