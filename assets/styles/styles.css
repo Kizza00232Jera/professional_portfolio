@@ -621,7 +621,7 @@ display: unset;
   margin: 0;
 }
 
-.question {
+.toggleproject {
   color: var(--white);
   cursor: pointer;
   padding: 20px;
@@ -638,8 +638,8 @@ display: unset;
   
 }
 
-.question_active, 
-.question:hover {
+.toggleproject_active, 
+.toggleproject:hover {
   background-color: var(--white);
   color: var(--black);
   border: 1px solid var(--orange);
@@ -662,7 +662,7 @@ display: unset;
   padding: 1vw 0;
 }
 
-.question:after {
+.toggleproject:after {
   content: '\002B';
   color: var(--white);
   font-weight: bold;
@@ -670,7 +670,7 @@ display: unset;
   margin-left: 5px;
 }
 
-.question_active:after {
+.toggleproject_active:after {
   content: "\2212";
   color: var(--black);
 }

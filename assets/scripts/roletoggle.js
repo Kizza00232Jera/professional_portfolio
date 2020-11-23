@@ -1,10 +1,10 @@
-/* FAQ Toggle question buttons */
-let btn = document.querySelectorAll(".question");
+/* Toggle in projects */
+let btn = document.querySelectorAll(".toggleproject");
 let i;
 
 for (i = 0; i < btn.length; i++) {
     btn[i].addEventListener("click", function () {
-        this.classList.toggle("question_active");
+        this.classList.toggle("toggleproject_active");
         const answer = this.nextElementSibling;
         if (answer.style.maxHeight) {
             answer.style.maxHeight = null;
